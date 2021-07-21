@@ -1,0 +1,25 @@
+//base
+
+@import "./base/reset";
+@import "./base/color";
+@import "./base/variables";
+@import "./base/helper";
+@import "./base/fonts";
+@import "./base/button";
+
+// component
+ 
+@import "./component/banner";
+@import "./component/about";
+@import "./component/our-team";
+@import "./component/work";
+@import "./component/service";
+@import "./component/features";
+@import "./component/contact";
+@import "./layout/footer";
+
+//layout
+
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/footer";

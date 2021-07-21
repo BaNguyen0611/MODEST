@@ -1,0 +1,31 @@
+.features {
+    background-color: $dark-blue;
+    padding: 86px 0 116px 0;
+
+    h2 {
+        color: white;
+    }
+
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__product {
+        width: calc(100%-(3*30px)/3);
+        margin-right: 30px;
+    }
+
+    &__content {
+        color: white;
+    }
+
+    &__title {
+        padding-top: 47px;
+    }
+
+    &__disc {
+        padding-top: 19px;
+    }
+}
